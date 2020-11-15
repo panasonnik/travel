@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="nav-brand nav-link" href="index.html">
+      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+    <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+  </svg>
+  Travel</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="route.html">Выбери свой маршрут!</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Топ-10
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="countries.html">Самые посещаемые страны</a>
+          <a class="dropdown-item" href="small.html">Самые маленькие страны Европы</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="sightseeing.html">Извесные достопримечательности</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Другое
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">(в разработке)</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="report">
+  <img src="small.jpg" class="img-fluid" alt="Responsive image">
+<h3 class="heading">Топ-10 самых маленьких стран Европы по площади</h3>
+<table class="table table-striped">
+  <thead>
+  <tr class="table-primary">
+    <th scope="col">&nbsp;</th>
+    <th scope="col">Страна</th>
+    <th scope="col">Площадь (км²)</th>
+    <th scope="col">Население</th>
+  </tr>
+    </thead>
+  <tbody>
+  <tr>
+    <td scope="row">1.</td>
+    <td>Ватикан</td>
+    <td>0,44</td>
+    <td>900</td>
+  </tr>
+  <tr class="table-info">
+    <td scope="row">2.</td>
+    <td>Монако</td>
+    <td>1,95</td>
+    <td>37 000</td>
+  </tr>
+  <tr>
+    <td scope="row">3.</td>
+    <td>Сан-Марино</td>
+    <td>61</td>
+    <td>34 000</td>
+  </tr>
+  <tr class="table-info">
+    <td scope="row">4.</td>
+    <td>Лихтенштейн</td>
+    <td>160</td>
+    <td>38 800</td>
+  </tr>
+  <tr>
+    <td scope="row">5.</td>
+    <td>Мальта</td>
+    <td>316</td>
+    <td>500 000</td>
+  </tr>
+  <tr class="table-info">
+    <td scope="row">6.</td>
+    <td>Андорра</td>
+    <td>468</td>
+    <td>77 000</td>
+  </tr>
+  <tr>
+    <td scope="row">7.</td>
+    <td>Люксембург</td>
+    <td>2586</td>
+    <td>600 000</td>
+  </tr>
+  <tr class="table-info">
+    <td scope="row">8.</td>
+    <td>Кипр</td>
+    <td>9 251</td>
+    <td>1 200 000</td>
+  </tr>
+
+  <tr>
+    <td scope="row">9.</td>
+    <td>Черногория</td>
+    <td>14 000</td>
+    <td>622 000</td>
+  </tr>
+  <tr class="table-info">
+    <td scope="row">10.</td>
+    <td>Словения</td>
+    <td>20 000</td>
+    <td>2 000 000</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
